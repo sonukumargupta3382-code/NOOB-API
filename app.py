@@ -593,9 +593,9 @@ async def MaiiiinE():
     global loop, key, iv, region, BOT_UID
 
     # BOT LOGIN UID
-    BOT_UID = int('1482210279')  # <-- FIXED BOT UID
+    BOT_UID = int('14238095117')  # <-- FIXED BOT UID
 
-    Uid, Pw = '4354560153', 'B99FF557D608F087B48589CBDA09EC2B878636762E59235D661D0C6692DF11FD'
+    Uid, Pw = '4366130365', '0D60F548003BF931B32FD9D236C224C0FD48267A3CEB78E1E93843FF26C08DC6'
 
     open_id, access_token = await GeNeRaTeAccEss(Uid, Pw)
     if not open_id or not access_token:
@@ -676,3 +676,4 @@ async def StarTinG():
 
 if __name__ == '__main__':
     asyncio.run(StarTinG())
+                                
